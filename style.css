@@ -1,0 +1,445 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#nav{
+    background-color: rgba(52, 9, 143, 0.51);
+color: white;
+}
+#nav a{
+    color: white;
+ 
+}
+
+#nav.scrolled{
+    background-color: rgba(51, 9, 143, 0.943);
+    transition: 1s all;
+}
+
+
+#sign-in{
+    border: 2px solid rgb(44, 44, 236);
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#sign-up{
+    background-color: rgb(44, 44, 236);
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color:white; 
+    text-decoration:none; 
+}
+#main-image{
+    height:100vh;    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.341); /* Black background with 50% opacity */
+  }
+  .overlay-container {
+    position: relative;
+  }
+
+  video {
+  height: 400px;
+    cursor: pointer;
+    
+  }
+
+  source{
+    border-radius: 10px;
+  }
+
+#about-scroll{
+        background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+
+}
+
+
+
+
+.card img{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#card-body{
+    background-color: rgba(32, 32, 237, 0.953);
+    border-radius:10px !important;
+    margin: 10px;
+
+  
+}
+.card:hover{
+
+    color:white;
+    border-radius: 10px;
+    box-shadow: 8px 10px 15px 0.5px black;
+    height: 300px;
+ 
+    transition: ease-in-out 0.2s;
+}
+
+
+/*------------------------------------------------------about us ----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.step {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    background-color: #fff;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 1s ease-in-out;
+    margin:10px;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.step-number {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle at center, #007BFF, #ffffff);
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.step-description {
+    margin-top: 10px;
+}
+
+/* Scroll Animation */
+.hidden-step {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.visible-step {
+    opacity: 1;
+    transform: translateY(0Px);
+}
+
+/* Additional Styling */
+h1 {
+    text-align: center;
+ 
+    color: #333;
+}
+.step:hover{
+    background-color: rgba(32, 32, 237, 0.953);
+color:white;
+border-radius: 10px;
+box-shadow: 8px 10px 15px 0.5px black;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .steps-container {
+        flex-direction: column;
+    }
+
+    .step {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.fixed-deposit-section {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #007BFF, #ffffff);
+    color: #fff;
+}
+
+.fixed-deposit-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.5s ease-in-out;
+}
+
+.fixed-deposit-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-details {
+    margin-top: 10px;
+    color: #333;
+}
+
+.check-icon {
+    color: #007BFF;
+    margin-right: 5px;
+}
+
+.apply-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Scroll Animation */
+.hidden-card {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.visible-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .fixed-deposit-card {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+.quote{ 
+    height: 200px;
+    background-color: #007BFF;
+    color: #fff;
+    margin-top: 100px;
+    padding-top: 50px;
+  
+}
+
+#feedback{
+    padding-top: 50px;
+    width: auto !important;
+    background-color: #170e41;
+   
+}
+
+
+
+#feedback .card{
+  
+    border: 5px solid #007BFF;
+    background-color: #170e41;
+    color: #fff;
+}
+
+#feedback .card:hover{
+    box-shadow: 0 0 10px rgba(4, 162, 248, 0.67);
+    transition: ease-in-out 0.2s;
+}
+
+
+
+/*-------------------------------------social icon---------------------------------*/
+
+.social a{
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 20px;
+    color: #fff;
+}
+.social a span1:hover{
+    background: #3b5999;
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+.social a span2:hover{
+    background:#00aced;
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+.social span3:hover{
+    background: rgb(233, 9, 222);
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+.social a span4:hover{
+    background:#cd201f;
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+
+/*-------------------------------------------social icon end-------------------------------- */
+
+
+
+/* ----------------------------------------- login and sign up ---------------------------------*/
+
+.section{
+    position: relative;
+    height: 100vh;
+    width:100%;
+background-size: cover;
+background-position: center center;
+ color:#fff
+
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    width: 300px;
+    padding: 50px 30px;
+    border-radius: 10px;
+  
+}
+.form-container h4{
+font-size: 25px;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 2em;
+
+    
+}
+
+.input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin:  1em 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+.section input[type="text"], input[type="password"]{
+
+    color: #fff;
+}
+.btn1{
+    background-color: rgba(46, 128, 216, 0.941);
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.link{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.link a{
+    text-decoration: none;
+    color:#fff;
+    opacity: .6;
+    transition: opacity .3s ease;
+    font-size: 17px;
+
+}
+.link a:hover{
+    opacity: 1; 
+
+}
+
+
+/*------------------------------------------------------end of login ans sign up --------------------------*/
+
+/* ------------------------google translator --------------------------*/
