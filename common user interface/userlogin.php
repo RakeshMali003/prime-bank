@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 include('.\connection\connection.php');
+=======
+include('..\BANK ONLINE PROJECT\connection\connection.php');
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
 
 // Function to validate email format
 function validateEmail($email) {
@@ -92,7 +96,11 @@ $con->close();
 
         <input type="submit" class="btn btn-primary btn-lg btn-block" name="login" class="btn1" value="Login"> <br>
 
+<<<<<<< HEAD
       <p class="text-center">New to PRIME Bank? Register (<a href=".\common user interface\userregistration.php">User</a> ) </p>
+=======
+      <p class="text-center">New to PRIME Bank? Register (<a href="..\BANK ONLINE PROJECT\common user interface\userregistration.php">User</a> ) </p>
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
     </div>
 </form>
     

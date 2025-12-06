@@ -9,6 +9,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--------------------------title logo--------------------->
+<<<<<<< HEAD
 <link rel="icon" href="\weblogo.png" type="image/icon type">
     <!---------------------------------css file --------------------------->
     <link rel="stylesheet" href=".\style.css">
@@ -17,6 +18,16 @@ session_start();
     <link rel="stylesheet" href=".\bootstrap\bootstrap-4.6.2-dist\css\bootstrap.min.css">
     
     <script src=".\bootstrap\bootstrap-4.6.2-dist\js\bootstrap.min.js"></script>
+=======
+<link rel="icon" href="\BANK ONLINE PROJECT\weblogo.png" type="image/icon type">
+    <!---------------------------------css file --------------------------->
+    <link rel="stylesheet" href="..\BANK ONLINE PROJECT\style.css">
+
+    <!------------------------------------------bootstrap ------------------------>
+    <link rel="stylesheet" href="..\BANK ONLINE PROJECT\bootstrap\bootstrap-4.6.2-dist\css\bootstrap.min.css">
+    
+    <script src="..\BANK ONLINE PROJECT\bootstrap\bootstrap-4.6.2-dist\js\bootstrap.min.js"></script>
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
 
     <!----------------------------------------other link------------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -119,14 +130,22 @@ session_start();
 <!------------------------------------------start nabar ---------------------------->
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style=" width:auto; justify-content:center; margin:50px; border-radius:50px; border-top:2px solid white; height:60px ">
+<<<<<<< HEAD
   <a class="navbar-brand" href=".\index.php"><img src=".\weblogo.png" style="height:90px; width:140px;"></a>
+=======
+  <a class="navbar-brand" href="..\BANK ONLINE PROJECT\index.php"><img src="..\BANK ONLINE PROJECT\weblogo.png" style="height:90px; width:140px;"></a>
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
+<<<<<<< HEAD
         <a class="nav-link" href=".\index.php">Home</a>
+=======
+        <a class="nav-link" href="..\BANK ONLINE PROJECT\index.php">Home</a>
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#aboutus">About Us</a>
@@ -145,7 +164,11 @@ session_start();
         <a class="btn  my-2 my-sm-0" href="#" data-toggle="modal" data-target="#signin" id="sign-in" style="text-decoration:none; border-radius:20px">Sign In</a>
       </li>
       <li class="nav-item active">
+<<<<<<< HEAD
         <a href=".\common user interface\userregistration.php" class="btn  my-2 mx-5 my-sm-0" id="sign-up" style="text-decoration:none" >Sign Up</a>
+=======
+        <a href="..\BANK ONLINE PROJECT\common user interface\userregistration.php" class="btn  my-2 mx-5 my-sm-0" id="sign-up" style="text-decoration:none" >Sign Up</a>
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
       </li>
 
 
@@ -158,6 +181,10 @@ session_start();
 
 <!---------------------------------------------------------------------------user login page--------------------------------> 
 <?php
+<<<<<<< HEAD
 include('.\common user interface\userlogin.php')
+=======
+include('..\BANK ONLINE PROJECT\common user interface\userlogin.php')
+>>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
 ?>
 <!-------------------------------------------------------------------end of user login--------------------------------------------->
