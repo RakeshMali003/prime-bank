@@ -1,5 +1,5 @@
 <?php
-<<<<<<< HEAD
+
 // =================================================================================
 //  PRIME BANK - ULTIMATE ADMIN PANEL (FULL DATABASE INTEGRATION)
 // =================================================================================
@@ -448,7 +448,7 @@ while($r = $q->fetch()){
 </script>
 </body>
 </html>
-=======
+<?php
 
 include('..\admin\adminnavbar.php');
 
@@ -458,4 +458,3 @@ include('..\admin\adminnavbar.php');
 <h4 class="para"> Dahboard</h4> <br> <hr>
 
 </div>
->>>>>>> 75138d4784e452aef7ef999cabc36ef03d0f92ec
